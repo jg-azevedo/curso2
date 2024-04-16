@@ -179,3 +179,52 @@ margin: 0 3em
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo);
 }
+@media (max-width: 1200px) 
+{
+  .imagem
+  {
+    justify-content: center;
+  }
+  .apresentacao
+  {
+    flex-direction: column-reverse;
+    padding: 5%;
+  }
+  .apresentacao__conteudo
+  {
+    width: auto;
+  }
+  .cabecalho
+  {
+    padding: 10%;
+  }
+  .cabecalho__menu
+  {
+    justify-content: center;
+  }
+
+@media (max-width: 1200px) 
+{
+  .imagem
+  {
+    justify-content: center;
+  }
+  .apresentacao
+  {
+    flex-direction: column-reverse;
+    padding: 5%;
+  }
+  .apresentacao__conteudo
+  {
+    width: auto;
+  }
+  .cabecalho
+  {
+    padding: 10%;
+  }
+  .cabecalho__menu
+  {
+    justify-content: center;
+  }
+
+}
